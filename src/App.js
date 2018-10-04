@@ -13,10 +13,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Movie title="movies[0]"/>
-        <Movie title="movies[1]"/>
-        <Movie title="movies[2]"/>
-        <Movie title="movies[3]"/>
+        <Movie title={movies[0]}/>
+        <Movie title={movies[1]}/>
+        <Movie title={movies[2]}/>
+        <Movie title={movies[3]}/>
       </div>
     );
   }
