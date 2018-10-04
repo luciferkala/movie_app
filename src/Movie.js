@@ -5,7 +5,8 @@ import './Movie.css';
 class Movie extends Component 
 {
     render()
-    {   return(
+    {    console.log(this.props);
+       return(
             <div>
                 <MoviePoster />
                 <h1>Hello! This is Movie!</h1>
