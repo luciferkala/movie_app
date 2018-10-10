@@ -5,7 +5,7 @@ import Movie from './Movie';
 class App extends Component {
 
   state = {
-    
+
   }
 
   componentWillMount(){
@@ -14,8 +14,11 @@ class App extends Component {
 
   componentDidMount(){
     fetch("https://yts.am/api/v2/list_movies.json?sort_by=download_count")
-  
+    .then(movie => movie.json())
+    .then(json => console.log(json))
+    .catch(err=>console.log(err))
   }
+
 _renderMovies = () => {
   const movies = this.state.movies.map((movie,index) => {
     return <Movie title={movie.title} poster={movie.poster} key={index}/>
