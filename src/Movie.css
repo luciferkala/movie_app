@@ -36,11 +36,14 @@
     display:flex;
     flex-wrap: wrap;
     margin-bottom: 20px;
+    font-weight: 600;
 }
 
 .Movie__Genres .Movie__Genres
 {
+    font-weight: 600;
     margin-right: 10px;
+    margin-bottom: 0;
     color: #B4B5BD;
 }
 
@@ -72,7 +75,7 @@
     .Movie
     {
         width: 100%;
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .Movie__Poster

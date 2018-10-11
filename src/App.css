@@ -1,5 +1,6 @@
 .App
 {
+  background-color:#EFF3F7;
   padding: 50px;
   display: flex;
   justify-content: space-around;
@@ -9,6 +10,7 @@
 
 .App--loading
 {
+  background-color:#EFF3F7;
   display: flex;
   justify-content: center;
   align-items: center;
