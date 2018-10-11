@@ -85,11 +85,11 @@
         width: 100%;
     }
     .Movie__Columns
-    {
+    {   
         width:100% !important;
     }
     .Movie__Columns:last-child
-    {
+    {   padding-top : 0;
         width: 100% !important;
     }
 }
