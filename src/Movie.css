@@ -75,7 +75,7 @@
     .Movie
     {
         width: 100%;
-        flex-direction: row;
+        flex-direction: column;
     }
 
     .Movie__Poster
@@ -87,5 +87,9 @@
     .Movie__Column
     {
         width:100% !important;
+    }
+    .Movie__Columns:last-child
+    {
+        width: 100% !important;
     }
 }
